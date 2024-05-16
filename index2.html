@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qismi du \ JS</title>
+</head>
+<body>
+    <P>Номатро дохил намо</P>
+    <input type="text" id="matn">
+    <button onclick="khorij()">Пахш намо</button>
+
+    <script>
+        function khorij(){
+            var text = document.getElementById("matn");
+            // document.write(text);
+            console.log(text.value);
+            text.value = "";
+            //alert("Man function")
+        }
+    </script>
+</body>
+</html>
